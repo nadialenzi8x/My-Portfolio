@@ -403,6 +403,27 @@ footer img {
 
 }
 
+@media (max-width: 1199px) and (min-width: 992px) {
+
+  .timeline::before {
+    left: 50%;
+  }
+
+  .timeline-item.left {
+    justify-content: flex-start;
+    padding-right: 4.5rem;
+  }
+
+  .timeline-item.right {
+    justify-content: flex-end;
+    padding-left: 4.5rem;
+  }
+
+  .timeline-item .content {
+    max-width: 220px;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
  nav {
